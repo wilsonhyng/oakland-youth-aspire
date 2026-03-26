@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Layout */
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* NAV */
+
+.nav {
+  background: white;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  height: 70vh;
+  background: url("images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.primary {
+  background: #111;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid white;
+  color: white;
+}
+
+/* SECTIONS */
+
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section.alt {
+  background: #f7f7f7;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
