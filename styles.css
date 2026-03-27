@@ -125,6 +125,23 @@ a {
   color: var(--muted);
 }
 
+.image-band {
+  position: relative;
+}
+
+.image-band img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(122, 77, 77, 0.12);
+  /* your accent tone */
+}
+
 /* BUTTONS */
 
 .cta {
