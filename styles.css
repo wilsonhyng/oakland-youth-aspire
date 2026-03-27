@@ -284,19 +284,13 @@ a {
 }
 
 .footer-logo {
-  width: 78px;
+  width: 140px;
   margin: 0 auto 16px;
 }
 
-.footer-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.footer p:last-child {
+.footer-description {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.7;
+  line-height: 1.6;
   opacity: 0.95;
 }
 
