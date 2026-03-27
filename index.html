@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oakland Youth Aspire</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 
 <body>
@@ -14,9 +14,7 @@
     <div class="container nav-inner">
       <a href="#" class="brand">
         <img src="images/OYA_logo.png" alt="Oakland Youth Aspire logo" class="brand-logo" />
-        <div class="brand-text">
-          <span class="brand-name">Oakland Youth Aspire</span>
-        </div>
+        <span class="brand-name">Oakland Youth Aspire</span>
       </a>
 
       <nav class="nav-links">
@@ -28,10 +26,10 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">Community • Mentorship • Healthy Living</p>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Oakland, California</p>
         <h1>Supporting Oakland youth through mentorship, life skills, and community care.</h1>
         <p class="hero-text">
           Oakland Youth Aspire creates a welcoming environment where young people can build confidence,
@@ -42,72 +40,101 @@
           <a href="#about" class="btn btn-secondary">Learn More</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about" class="section">
-    <div class="container narrow">
-      <h2>About Oakland Youth Aspire</h2>
-      <p>
-        Oakland Youth Aspire supports youth in Oakland through mentorship, healthy living,
-        and life-skills development.
-      </p>
-      <p>
-        Our programs are centered on creating a safe and encouraging space where young people
-        can build confidence, strengthen communication, and grow within their community.
-      </p>
-    </div>
-  </section>
-
-  <section id="programs" class="section section-soft">
-    <div class="container">
-      <h2>What We Focus On</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Mentorship</h3>
-          <p>Supportive guidance and consistent community relationships.</p>
-        </article>
-
-        <article class="card">
-          <h3>Healthy Living</h3>
-          <p>Wellness, nutrition, and habits that support long-term growth.</p>
-        </article>
-
-        <article class="card">
-          <h3>Life Skills</h3>
-          <p>Communication, responsibility, and practical tools for everyday life.</p>
-        </article>
+    <section id="about" class="section intro-section">
+      <div class="container editorial-grid">
+        <div class="section-label">About</div>
+        <div class="section-content">
+          <h2>A community-centered space for growth, encouragement, and connection.</h2>
+          <p>
+            Oakland Youth Aspire supports youth in Oakland through mentorship, healthy living,
+            and life-skills development.
+          </p>
+          <p>
+            Our programs are centered on creating a safe and encouraging environment where young
+            people can build confidence, strengthen communication, and grow within their community.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="involved" class="section">
-    <div class="container narrow">
-      <h2>Get Involved</h2>
-      <p>
-        We welcome volunteers, community partners, and supporters who want to invest in Oakland youth.
-      </p>
-      <a href="#contact" class="btn btn-primary">Reach Out</a>
-    </div>
-  </section>
+    <section id="programs" class="section editorial-band">
+      <div class="container editorial-grid">
+        <div class="section-label">Programs</div>
+        <div class="section-content">
+          <h2>What we focus on</h2>
 
-  <section id="contact" class="section section-soft">
-    <div class="container narrow">
-      <h2>Contact</h2>
-      <p>Email: info@oaklandyouthaspire.org</p>
-      <p>Oakland, California</p>
-    </div>
-  </section>
+          <div class="program-list">
+            <article class="program-item">
+              <h3>Mentorship</h3>
+              <p>
+                Supportive guidance and consistent relationships that help young people navigate challenges,
+                build confidence, and feel seen within their community.
+              </p>
+            </article>
+
+            <article class="program-item">
+              <h3>Healthy Living</h3>
+              <p>
+                Encouraging wellness, nutrition, and healthy habits that support long-term growth
+                both inside and outside the program.
+              </p>
+            </article>
+
+            <article class="program-item">
+              <h3>Life Skills</h3>
+              <p>
+                Building communication, responsibility, and everyday practical skills that prepare youth
+                for school, relationships, and future opportunities.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="involved" class="section">
+      <div class="container editorial-grid">
+        <div class="section-label">Get Involved</div>
+        <div class="section-content">
+          <h2>Support the work.</h2>
+          <p>
+            We welcome volunteers, community partners, and supporters who want to invest in Oakland youth.
+          </p>
+          <p>
+            Whether you want to contribute time, resources, or connections, we would love to hear from you.
+          </p>
+          <div class="cta">
+            <a href="#contact" class="btn btn-primary">Reach Out</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section editorial-band contact-section">
+      <div class="container editorial-grid">
+        <div class="section-label">Contact</div>
+        <div class="section-content">
+          <h2>Get in touch.</h2>
+          <div class="contact-lines">
+            <p><span>Email</span> info@oaklandyouthaspire.org</p>
+            <p><span>Location</span> Oakland, California</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container footer-inner">
       <img src="images/OYA_logo.png" alt="Oakland Youth Aspire logo" class="footer-logo" />
       <p class="footer-title">Oakland Youth Aspire</p>
-      <p>Oakland, CA</p>
-      <p>info@oaklandyouthaspire.org</p>
+      <p>Supporting Oakland youth through mentorship, healthy living, and life skills.</p>
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
