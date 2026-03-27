@@ -54,9 +54,10 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(248, 245, 241, 0.94);
+  background: rgba(122, 77, 77, 0.06);
+  /* soft accent tint */
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(122, 77, 77, 0.15);
 }
 
 .nav-inner {
