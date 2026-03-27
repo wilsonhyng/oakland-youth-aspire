@@ -53,7 +53,7 @@ a {
 }
 
 .nav-inner {
-  min-height: 76px;
+  min-height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,15 +67,9 @@ a {
 }
 
 .brand-logo {
-  width: 46px;
-  height: 46px;
+  width: 72x;
+  height: 72px;
   object-fit: contain;
-}
-
-.brand-name {
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
 }
 
 .nav-links {
@@ -96,6 +90,8 @@ a {
 .hero {
   background: var(--bg);
   border-bottom: none;
+  padding-top: 120px;
+  padding-bottom: 88px;
 }
 
 .hero-inner {
